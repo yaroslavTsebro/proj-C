@@ -40,13 +40,12 @@ namespace TestProjectA.tests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
         public void Map_MoveCar_InvalidMovement()
         {
             var map = new Map(10, 10);
             var car = new Car("Car1", 200, 2, new Driver("John", 30), 0, 0);
             map.AddCar(car);
-            map.MoveCar(car, 11, 11);
+            Assert.IsFalse(map.MoveCar(car, 11, 11));   
         }
     }
 }

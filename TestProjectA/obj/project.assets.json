@@ -2324,11 +2324,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\c#\\TestProjectA\\TestProjectA.csproj",
+      "projectUniqueName": "D:\\c#\\proj\\TestProjectA\\TestProjectA.csproj",
       "projectName": "TestProjectA",
-      "projectPath": "D:\\c#\\TestProjectA\\TestProjectA.csproj",
+      "projectPath": "D:\\c#\\proj\\TestProjectA\\TestProjectA.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\c#\\TestProjectA\\obj\\",
+      "outputPath": "D:\\c#\\proj\\TestProjectA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2349,8 +2349,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\c#\\Project\\ProjectA.csproj": {
-              "projectPath": "D:\\c#\\Project\\ProjectA.csproj"
+            "D:\\c#\\proj\\Project\\ProjectA.csproj": {
+              "projectPath": "D:\\c#\\proj\\Project\\ProjectA.csproj"
             }
           }
         }
